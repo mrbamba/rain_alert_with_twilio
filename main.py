@@ -32,7 +32,6 @@ hourly = response.json()["hourly"][:16]
 send_alert = False
 
 for hour_data in hourly:
-    print("running")
     if hour_data["weather"][0]["id"] < 700:
         send_alert = True
         break
