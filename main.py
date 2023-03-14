@@ -12,7 +12,6 @@ load_dotenv('twilio.env')
 # Load Twilio Keys from os.environ
 account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
 auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
-print(account_sid, auth_token)
 
 
 # Load OpenWeatherMap key from os.environ
